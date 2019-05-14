@@ -1,0 +1,22 @@
+*, html, body{
+    margin: 0;
+    padding: 0;
+}
+
+#slider{
+    width: 128px;
+    height: 128px;
+    border: 5px solid black;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+#polosa{
+    display: flex; 
+    width: 512px;
+    position: relative; 
+    right: 0;
+    transition: all ease 1s;
+   
+}
+

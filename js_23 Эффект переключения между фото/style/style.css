@@ -1,0 +1,23 @@
+#mySlider{
+    width: 375px;
+    height: 400px;
+    border: 2px solid black;
+    position: relative;
+}
+
+#one, #two{
+    width: 375px;
+    height: 400px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+
+#one{
+    background: yellow;
+}
+
+#two{
+    background: blue;
+}
